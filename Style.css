@@ -1,0 +1,77 @@
+body{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+*{
+    margin : 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topic{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    gap: 4px;
+    grid-template-rows: repeat(7, 1fr);
+    
+}
+
+.ceejay{
+    /* border: 2px solid black; */
+    background-color: brown;
+    height: 70px;
+    text-align: center;
+}
+
+/* <!--30, 39 - 48  (white) should have the same class -->
+<!-- 20,38,56,74,92,110  (Orange) different same class  -->
+    <!-- 19,37,55,73,91,109 (red) different same class -->
+    <!-- 57-66,75-84,98-106,112-120   (yellow) different same class -->
+    <!-- 18,36,54,72,90,108,126  (indigo) different same class -->
+    <!-- 53,71,89,107,125,33-35,52-53,71 (blue)  different same class  -->
+    <!-- 31,50,68-69,86-87,106 (green) different same class   -->
+    <!-- 121-124,103-105,84-85,67,30 (Light) different same class  -->
+    <!-- 111,97 (pink) different same class  --> */
+
+.white{
+    background-color: white;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.red{
+    background-color: rgb(151, 4, 4);
+}
+
+.yellow{
+    background-color: rgb(250, 250, 8);
+}
+
+.indigo{
+    background-color: rgb(132, 48, 192);
+}
+
+.blue{
+    background-color: rgb(76, 76, 243);
+}
+
+.green{
+    background-color: rgb(2, 90, 2);
+}
+
+.lightgreen{
+    background-color: rgb(102, 175, 102);
+}
+
+.pink{
+    background-color: rgb(238, 54, 229);
+}
